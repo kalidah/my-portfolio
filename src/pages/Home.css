@@ -1,0 +1,33 @@
+/**
+ * AboutMe.js
+ * Student's Name: Kalid Haider
+ * StudentID: 301383513
+ * Date: 2024-05-31
+ */
+
+.home {
+    text-align: center;
+    margin: 20px;
+}
+
+.home h1 {
+    font-size: 2.5em;
+}
+
+.home p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

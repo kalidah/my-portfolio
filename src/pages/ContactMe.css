@@ -1,0 +1,44 @@
+/**
+ * AboutMe.js
+ * Student's Name: Kalid Haider
+ * StudentID: 301383513
+ * Date: 2024-05-31
+ */
+
+
+/* src/components/ContactMe.css */
+.contact-me {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-me form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me form label {
+    margin: 10px 0;
+}
+
+.contact-me form input,
+.contact-me form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-me form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-me form button:hover {
+    background-color: #0056b3;
+}

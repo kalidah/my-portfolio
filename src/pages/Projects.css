@@ -1,0 +1,41 @@
+/**
+ * AboutMe.js
+ * Student's Name: Kalid Haider
+ * StudentID: 301383513
+ * Date: 2024-05-31
+ */
+
+
+.projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.project {
+    flex: 1 1 calc(33% - 20px); 
+    max-width: 300px; 
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px; 
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; 
+    object-fit: cover; 
+    display: block;
+    margin-bottom: 10px;
+}
